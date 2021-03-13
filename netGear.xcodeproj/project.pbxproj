@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAE9E0EEBD9E3B87D7B8A4B /* Pods_netGear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C97FC6BF65B42FF7225AE /* Pods_netGear.framework */; };
+		C2A8FDB325FC2F2500FB6327 /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A8FDB225FC2F2500FB6327 /* Manifest.swift */; };
+		C2A8FDB625FC2F2B00FB6327 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A8FDB525FC2F2B00FB6327 /* Image.swift */; };
+		C2A8FDBC25FC4C7F00FB6327 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A8FDBB25FC4C7F00FB6327 /* Pulsing.swift */; };
+		C2E55D7025FBEE5200C6FF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E55D6F25FBEE5200C6FF9A /* AppDelegate.swift */; };
+		C2E55D7225FBEE5200C6FF9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E55D7125FBEE5200C6FF9A /* SceneDelegate.swift */; };
+		C2E55D7425FBEE5200C6FF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E55D7325FBEE5200C6FF9A /* ViewController.swift */; };
+		C2E55D7725FBEE5200C6FF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E55D7525FBEE5200C6FF9A /* Main.storyboard */; };
+		C2E55D7925FBEE5500C6FF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E55D7825FBEE5500C6FF9A /* Assets.xcassets */; };
+		C2E55D7C25FBEE5500C6FF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E55D7A25FBEE5500C6FF9A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333969F9F40852F8699D9C9A /* Pods-netGear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netGear.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netGear/Pods-netGear.debug.xcconfig"; sourceTree = "<group>"; };
+		867C97FC6BF65B42FF7225AE /* Pods_netGear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netGear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A8FDB225FC2F2500FB6327 /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
+		C2A8FDB525FC2F2B00FB6327 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C2A8FDBB25FC4C7F00FB6327 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		C2E55D6C25FBEE5200C6FF9A /* netGear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netGear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E55D6F25FBEE5200C6FF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E55D7125FBEE5200C6FF9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2E55D7325FBEE5200C6FF9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E55D7625FBEE5200C6FF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E55D7825FBEE5500C6FF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E55D7B25FBEE5500C6FF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E55D7D25FBEE5500C6FF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF7237A36D143A8300832A8 /* Pods-netGear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netGear.release.xcconfig"; path = "Pods/Target Support Files/Pods-netGear/Pods-netGear.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E55D6925FBEE5200C6FF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAE9E0EEBD9E3B87D7B8A4B /* Pods_netGear.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5256A710DC77E01DCB4A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				867C97FC6BF65B42FF7225AE /* Pods_netGear.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CAFAA9B02FFBC799F42AD73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				333969F9F40852F8699D9C9A /* Pods-netGear.debug.xcconfig */,
+				FDF7237A36D143A8300832A8 /* Pods-netGear.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2A8FDBE25FC52B700FB6327 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2A8FDB225FC2F2500FB6327 /* Manifest.swift */,
+				C2A8FDB525FC2F2B00FB6327 /* Image.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2A8FDC025FC52C600FB6327 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2A8FDBB25FC4C7F00FB6327 /* Pulsing.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2E55D6325FBEE5200C6FF9A = {
+			isa = PBXGroup;
+			children = (
+				C2E55D6E25FBEE5200C6FF9A /* netGear */,
+				C2E55D6D25FBEE5200C6FF9A /* Products */,
+				9CAFAA9B02FFBC799F42AD73 /* Pods */,
+				4E5256A710DC77E01DCB4A4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E55D6D25FBEE5200C6FF9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E55D6C25FBEE5200C6FF9A /* netGear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E55D6E25FBEE5200C6FF9A /* netGear */ = {
+			isa = PBXGroup;
+			children = (
+				C2E55D6F25FBEE5200C6FF9A /* AppDelegate.swift */,
+				C2E55D7125FBEE5200C6FF9A /* SceneDelegate.swift */,
+				C2E55D7325FBEE5200C6FF9A /* ViewController.swift */,
+				C2A8FDC025FC52C600FB6327 /* View */,
+				C2A8FDBE25FC52B700FB6327 /* Model */,
+				C2E55D7525FBEE5200C6FF9A /* Main.storyboard */,
+				C2E55D7825FBEE5500C6FF9A /* Assets.xcassets */,
+				C2E55D7A25FBEE5500C6FF9A /* LaunchScreen.storyboard */,
+				C2E55D7D25FBEE5500C6FF9A /* Info.plist */,
+			);
+			path = netGear;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E55D6B25FBEE5200C6FF9A /* netGear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E55D8025FBEE5500C6FF9A /* Build configuration list for PBXNativeTarget "netGear" */;
+			buildPhases = (
+				04F0DEE53D10F411C907ABEE /* [CP] Check Pods Manifest.lock */,
+				C2E55D6825FBEE5200C6FF9A /* Sources */,
+				C2E55D6925FBEE5200C6FF9A /* Frameworks */,
+				C2E55D6A25FBEE5200C6FF9A /* Resources */,
+				671D85B569EFDBF07D9C2700 /* [CP] Embed Pods Frameworks */,
+				FEF157A9C0E0554CEAA6281C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = netGear;
+			productName = netGear;
+			productReference = C2E55D6C25FBEE5200C6FF9A /* netGear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E55D6425FBEE5200C6FF9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C2E55D6B25FBEE5200C6FF9A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C2E55D6725FBEE5200C6FF9A /* Build configuration list for PBXProject "netGear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E55D6325FBEE5200C6FF9A;
+			productRefGroup = C2E55D6D25FBEE5200C6FF9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E55D6B25FBEE5200C6FF9A /* netGear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E55D6A25FBEE5200C6FF9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E55D7C25FBEE5500C6FF9A /* LaunchScreen.storyboard in Resources */,
+				C2E55D7925FBEE5500C6FF9A /* Assets.xcassets in Resources */,
+				C2E55D7725FBEE5200C6FF9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F0DEE53D10F411C907ABEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-netGear-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671D85B569EFDBF07D9C2700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-netGear/Pods-netGear-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netGear/Pods-netGear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF157A9C0E0554CEAA6281C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netGear/Pods-netGear-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E55D6825FBEE5200C6FF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A8FDB325FC2F2500FB6327 /* Manifest.swift in Sources */,
+				C2E55D7425FBEE5200C6FF9A /* ViewController.swift in Sources */,
+				C2E55D7025FBEE5200C6FF9A /* AppDelegate.swift in Sources */,
+				C2E55D7225FBEE5200C6FF9A /* SceneDelegate.swift in Sources */,
+				C2A8FDBC25FC4C7F00FB6327 /* Pulsing.swift in Sources */,
+				C2A8FDB625FC2F2B00FB6327 /* Image.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2E55D7525FBEE5200C6FF9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E55D7625FBEE5200C6FF9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E55D7A25FBEE5500C6FF9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E55D7B25FBEE5500C6FF9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E55D7E25FBEE5500C6FF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E55D7F25FBEE5500C6FF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E55D8125FBEE5500C6FF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333969F9F40852F8699D9C9A /* Pods-netGear.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64ACFS2Y6;
+				INFOPLIST_FILE = netGear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvinapp.netGear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E55D8225FBEE5500C6FF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF7237A36D143A8300832A8 /* Pods-netGear.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64ACFS2Y6;
+				INFOPLIST_FILE = netGear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvinapp.netGear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E55D6725FBEE5200C6FF9A /* Build configuration list for PBXProject "netGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E55D7E25FBEE5500C6FF9A /* Debug */,
+				C2E55D7F25FBEE5500C6FF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E55D8025FBEE5500C6FF9A /* Build configuration list for PBXNativeTarget "netGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E55D8125FBEE5500C6FF9A /* Debug */,
+				C2E55D8225FBEE5500C6FF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E55D6425FBEE5200C6FF9A /* Project object */;
+}
